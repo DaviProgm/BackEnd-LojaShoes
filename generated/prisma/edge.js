@@ -149,11 +149,12 @@ const config = {
     "db"
   ],
   "activeProvider": "mongodb",
+  "postinstall": false,
   "inlineDatasources": {
     "db": {
       "url": {
         "fromEnvVar": "DATABASE_URL",
-        "value": "mongodb+srv://Davizinxx:9tomOIYiMQ0Uw3tk@cluster0.fztrgho.mongodb.net/apishoes?retryWrites=true&w=majority&appName=Cluster0"
+        "value": null
       }
     }
   },
