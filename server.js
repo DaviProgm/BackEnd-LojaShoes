@@ -10,5 +10,3 @@ app.listen(port, () => {
 })
 
 
-// mongodb+srv://Davizinxx:<db_password>@cluster0.fztrgho.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-//
